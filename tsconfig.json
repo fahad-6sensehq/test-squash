@@ -19,9 +19,11 @@
     "noFallthroughCasesInSwitch": false,
     "paths": {
       "@app/common": [
+        "libs/src",
         "libs/src"
       ],
       "@app/common/*": [
+        "libs/src/*",
         "libs/src/*"
       ]
     }
