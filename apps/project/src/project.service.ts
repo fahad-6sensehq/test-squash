@@ -1,5 +1,6 @@
 import { CommonService } from '@app/common';
 import { Injectable } from '@nestjs/common';
+import * as bcryptjs from 'bcryptjs'
 
 @Injectable()
 export class ProjectService {
